@@ -1,0 +1,93 @@
+/* reset default styling*/
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin-top: 120px;
+    margin-left: 190px;
+
+}
+
+.container .img-container img{
+    height: 500px;
+    width: 350px;
+    border-radius: 0%;
+    
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container .product-info .heading{
+    padding-bottom: 15px;
+    font-size: 32px;
+}
+
+.container .product-info .subheading{
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: lightgray;
+    padding-right: 25px;
+}
+
+.container .product-info .product-description{
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+.product-description{
+    margin-bottom: 20px;
+}
+
+.container .product-info .avail-colors-content{
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    flex-wrap: nowrap;
+    
+
+}
+
+
+
+.container .product-info .purchase-sub-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.container .product-info .purchase-sub-sec .price{
+    font-size: 32px;
+}
+.container .product-info .purchase-sub-sec .purchase-btn{
+    width: 150px;
+    height: 40px;
+}
+
+
+
+
+
